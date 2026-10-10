@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 本地运行产物
+arc-output/
+local-grader/
+.octos-acceptance/
+
+# 凭据与打包产物：永不入库
+.env
+.env.*
+*.env
+*.zip
